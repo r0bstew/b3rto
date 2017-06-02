@@ -1,50 +1,70 @@
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
+
+<!--body is just the background-->
+<!--class is basically a variable-->
+
+  body {
+    background-color: white;
+  }
   .red-text {
     color: red;
   }
-
   h2 {
     font-family: Lobster, Monospace;
   }
-
   p {
+    color:white;
     font-size: 16px;
     font-family: Monospace;
   }
-
   .thick-red-border {
     border-color: red;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
-
   .smaller-image {
     width: 100px;
   }
+  .white-text {
+    color: white;
+  }
+  .black-text {
+    color: black;
+  }
+  .black-background{
+    background-color: black;
+  }
+    
 </style>
 
 <h2 class="red-text">b3rt0_imgs</h2>
 
-<p>Dont' click here for <a href="https://media.giphy.com/media/jir4LEGA68A9y/giphy.gif">b3rt0 imgs</a>.</p>
+<p class="black-text">Dont' click here for <a href="https://media.giphy.com/media/jir4LEGA68A9y/giphy.gif">b3rt0 imgs</a>.</p>
 
 <a href="#"><img class="smaller-image thick-red-border" alt="A different Berto " src="https://media.giphy.com/media/NEvPzZ8bd1V4Y/giphy.gif"></a>
 
 
 <p><a href="http://www.gifff.in/">Goodbye normal!</a></p>
 
-
-<p>testing_unordered_lists:</p>
-<ul>
+<div class="black-background">
+<p class="white-text">testing_unordered_lists:</p>
+<ul class="white-text">
   <li>test1</li>
   <li>test2</li>
   <li>test3</li>
 </ul>
-<p>testing_ordered_lists:</p>
-<ol>
+<p class="white-text">testing_ordered_lists:</p>
+<ol class="white-text">
 	<li>test1</li>
 	<li>test2</li>
 	<li>test3</li>
 </ol>
+</div>
+
+<form action="/submit-b3rt0-img">
+  <input type="text" required placeholder="b3rt0 img url">
+  <button type="submit">submit</button>
+</form>
