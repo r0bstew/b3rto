@@ -1,9 +1,15 @@
 
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
 
-<!--body is just the background-->
-<!--class is basically a variable-->
+/* body is just the background */
+/* class is basically a variable */
+/* class = . */
+/* id = #   id attribute will always take precedence over classes*/
+/* in-line styles will override all the CSS declarations in your style element */
+/* in-line style example: <h1 style="color: white">Hello World</h1> */
+/* when you absolutely need to be sure that an element has specific CSS, you can use !important ex. color:white !important; */
 
   body {
     background-color: white;
@@ -28,18 +34,23 @@
   .smaller-image {
     width: 100px;
   }
-  .white-text {
-    color: white;
+  .dodger-blue-text {
+    color: #2998E4;
+  }
+  .white-text{
+    color:white;
   }
   .black-text {
     color: black;
   }
   .black-background{
-    background-color: black;
+    background-color: #000000; /* hex code for black */
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
   }
     
 </style>
-
+<div class="container-fluid">
 <h2 class="red-text">b3rt0_imgs</h2>
 
 <p class="black-text">Dont' click here for <a href="https://media.giphy.com/media/jir4LEGA68A9y/giphy.gif">b3rt0 imgs</a>.</p>
@@ -48,16 +59,17 @@
 
 
 <p><a href="http://www.gifff.in/">Goodbye normal!</a></p>
+  <a href="#"><img class="img-responsive" src="https://bit.ly/fcc-running-cats" alt="running cats "></a>
 
 <div class="black-background">
 <p class="white-text">testing_unordered_lists:</p>
-<ul class="white-text">
+<ul class="dodger-blue-text">
   <li>test1</li>
   <li>test2</li>
   <li>test3</li>
 </ul>
 <p class="white-text">testing_ordered_lists:</p>
-<ol class="white-text">
+<ol class="dodger-blue-text">
 	<li>test1</li>
 	<li>test2</li>
 	<li>test3</li>
@@ -68,3 +80,4 @@
   <input type="text" required placeholder="b3rt0 img url">
   <button type="submit">submit</button>
 </form>
+</div>
