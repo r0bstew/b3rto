@@ -1,8 +1,18 @@
+/* 
+
+ body is just the background 
+ class is basically a variable 
+ class = .
+ id = #   id attribute will always take precedence over classes
+ in-line styles will override all the CSS declarations in your style element 
+ in-line style example: <h1 style="color: white">Hello World</h1> 
+ when you absolutely need to be sure that an element has specific CSS, you can use !important ex. color:white !important; 
+
+ */
+
+
 body {
     background-color: black;
-  }
-  .red-text {
-    color: red;
   }
   h2 {
     font-family: Lobster, Monospace;
@@ -11,6 +21,9 @@ body {
     color:white;
     font-size: 16px;
     font-family: Monospace;
+  }
+  .red-text {
+   color: red;
   }
   .thick-red-border {
     border-color: red;
@@ -34,4 +47,8 @@ body {
     background-color: #000000; /* hex code for black */
     margin: 5px 5px 5px 5px;
     padding: 10px 10px 10px 10px;
+  }
+  .ol {
+  text-align: center;
+  list-style-position: inside;
   }
