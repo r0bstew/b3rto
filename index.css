@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+  }
+  .red-text {
+    color: red;
+  }
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+  p {
+    color:white;
+    font-size: 16px;
+    font-family: Monospace;
+  }
+  .thick-red-border {
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  .smaller-image {
+    width: 100px;
+  }
+  .dodger-blue-text {
+    color: #2998E4;
+  }
+  .white-text{
+    color:white;
+  }
+  .black-text {
+    color: black;
+  }
+  .black-background{
+    background-color: #000000; /* hex code for black */
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+  }
