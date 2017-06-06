@@ -15,10 +15,11 @@ Syntax highlighted code block
 
 1. Numbered
 2. List
-
+<img src="http://bit.ly/2s0TAqI">
 **Bold** and _Italic_ and `Code` text
+![Image](http://bit.ly/2s0TAqI)
+[Link](https://r0bstew.github.io/html_repo/)
 
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
