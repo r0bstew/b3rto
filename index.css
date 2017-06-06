@@ -10,7 +10,7 @@
 
  */
 
-@import "{{ site.theme }}";
+@import "{{ jekyll-theme-slate }}";
 
 body {
     background-color: black;
