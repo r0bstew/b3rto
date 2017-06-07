@@ -45,7 +45,7 @@
 <br>
 <center><a href="#"><img class="thick-red-border img-responsive" alt="A different Berto" src="https://media.giphy.com/media/NEvPzZ8bd1V4Y/giphy.gif"></a><center>
 <br>
-<p> <a href="https://media.giphy.com/media/jir4LEGA68A9y/giphy.gif" class="dodger-blue-text">Click here to get weird</a>.</p>
+<p> <a href="https://media.giphy.com/media/jir4LEGA68A9y/giphy.gif" class="dodger-blue-text">click here to get weird</a>.</p>
 <br>
 
 <p><a href="http://www.gifff.in/" class="text-danger">goodbye_normal</a></p>
@@ -54,22 +54,28 @@
 <br>
 <div class="row">
   <div class="col-md-4">
-  <button class="btn btn-block btn-primary">Like</button>
+    <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button> <!-- i class="fa fa-thumbs-up" font awesome icons -->
+  </div>
+    <div class="col-md-4">
+      <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button> <!-- i class="fa fa-info-circle" font awesome icons -->
     </div>
-  <div class="col-md-4">
-  <button class="btn btn-block btn-info">Info</button>
-    </div>
-  <div class="col-md-4">
-  <button class="btn btn-block btn-danger">Delete</button>
-    </div>
+      <div class="col-md-4">
+        <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i> Delete</button> <!-- i class="fa fa-trash" font awesome icons -->
+      </div>
 </div>
 <br>
   <!-- without -block then the button will only be as wide as the text. -block stretches the button to 100% available width -->
   <!-- bootstrap comes with several pre-defined colors for buttons -->
 
 <form action="/submit-b3rt0-img">
-  <input type="text" required placeholder="img_url">
-  <button type="submit">submit</button>
+  <div class="row">
+    <div class="col-xs-7">
+      <input type="text" class="form-control" required placeholder="img_url">
+    </div>
+      <div class="col-xs-5">
+        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>submit</button> <!-- i class="fa fa-paper-plane" font awesome icons -->
+      </div>
+  </div>
 </form>
 
 <br>
