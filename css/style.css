@@ -15,7 +15,7 @@
     font-family: Lobster, Monospace;
   }
   p {
-    color:white;
+    color:black;
     font-size: 16px;
     font-family: Monospace;
   }
@@ -38,14 +38,19 @@
     color:white;
   }
   .black-text {
-    color: black;
+    color: black !important; /*this would overwrite any other css */
   }
-  .black-background{
-    background-color: #000000; /* hex code for black */
-    margin: 5px 5px 5px 5px;
-    padding: 10px 10px 10px 10px;
-  }
-  .ol {
-  text-align: center;
-  list-style-position: inside;
+  .wrapper {
+    text-align: center;
   } 
+
+  .button {
+    position: absolute;
+    top: 50%;
+  }
+  .align-middle{
+    margin:5px 5px 5px 5px;
+    padding-left: 450px;
+    padding-right: 450px;
+    display:block;
+  }
