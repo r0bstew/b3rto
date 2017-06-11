@@ -16,7 +16,16 @@
     $("button").addClass("animated bounce");
     $(".well").addClass("animated shake");
     $("#target3").addClass("animated fadeOut");
-
+    $("#target1").css("color","red");
+    $("#target2").prop("disabled",true); /*can disable the button with this jquery function*/
+    $("#target4").html("<em>#target4</em>"); /*can change the text with this jquery function*/
+    $("#target5").remove(); /*remove an element with jquery*/
+    $("#target1").appendTo("#right-well"); /*use appendTo to move elements with jquery*/
+    $("#target6").clone().appendTo("#left-well"); /*cloning an element with jquery*/
+    $("#target1").parent().css("background-color","red");
+    $("#right-well").children().css("color","orange");
+    $(".target:nth-child(2)").addClass("animated bounce"); /*css selector allows you to select all the nth elements with the target class or element type.*/
+    $(".target:odd").addClass("animated shake"); /*can target even or odd numbered elements*/
   });
 </script>
 
