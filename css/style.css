@@ -10,7 +10,9 @@
 
  */
 
-
+  body{
+    margin-top: 60px;
+  }
   h2 {
     font-family: Lobster, Monospace;
   }
