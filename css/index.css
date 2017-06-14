@@ -1,0 +1,53 @@
+a {
+  font-family:Raleway;
+}
+body {
+  background-color:#D3D3D3;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+cite {
+  color:#D3D3D3;
+}
+footer { 
+    display: block;
+}
+p {
+ color:#D3D3D3; 
+}
+.navbar {
+    background-color: #222222;
+    margin:0;
+}
+.jumbotron {
+  margin:0;
+}
+.rale-font {
+  font-family:Raleway;
+}
+.nunito-font {
+  font-family:'Nunito', sans-serif;
+}
+.source-sans-font {
+  font-family:'Source Sans Pro', sans-serif;
+}
+.lobster-font {
+  font-family:Lobster;
+  color:#d9534f !important;
+  font-size:35px;
+  padding-left:80px;
+}
+.lobster-font2 {
+  font-family:Lobster;
+}
+.danger-color {
+  color:#d9534f !important;
+}
+.margin-right {
+  margin-right:80px;
+}
+.black-background {
+  background-color:black;
+}
