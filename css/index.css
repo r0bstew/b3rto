@@ -2,7 +2,7 @@ a {
   font-family:Raleway;
 }
 body {
-  background-color:#D3D3D3;
+  background-color:#D3D3D3 !important;
 }
 img {
     display: block;
@@ -18,11 +18,11 @@ p {
  color:#D3D3D3; 
 }
 .navbar {
-    background-color: #222222;
-    margin:0;
+    background-color: #222222 !important;
+    margin:0 !important;
 }
 .jumbotron {
-  margin:0;
+  margin:0 !important;
 }
 .rale-font {
   font-family:Raleway;
@@ -36,8 +36,8 @@ p {
 .lobster-font {
   font-family:Lobster;
   color:#d9534f !important;
-  font-size:35px;
-  padding-left:80px;
+  font-size:35px !important;
+  padding-left:80px !important;
 }
 .lobster-font2 {
   font-family:Lobster;
@@ -49,5 +49,5 @@ p {
   margin-right:80px;
 }
 .black-background {
-  background-color:black;
+  background-color:black !important;
 }
