@@ -4,16 +4,16 @@ body {
 }
 h1 {
   font-size:80px;
-  color:#d9534f;
-  font-family:Lobster;
+  color:#d9534f !important;
+  font-family:Lobster !important;
 }
 h3 {
-  color:#d9534f;
-  font-family:Lobster Two;
+  color:#d9534f !important;
+  font-family:Lobster Two !important;
 }
 img {
-    display: block;
-    margin: 0 auto;
+    display: block !important;
+    margin: 0 auto !important;
 }
   .red-border {
     border-color: #d9534f;
