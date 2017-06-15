@@ -60,3 +60,7 @@ p {
   height: 50px;
   background-color: #222222;
 }
+.icon-right {
+float: right;
+color:black;
+}

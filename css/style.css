@@ -12,6 +12,7 @@
 
   body{
     margin-top: 60px;
+    background-color: black;
   }
   h2 {
     font-family: Lobster, Monospace;
@@ -30,8 +31,9 @@
     border-style: solid;
     border-radius: 50%;
   }
-  .smaller-image {
-    width: 100px;
+  .larger {
+    height:400px;
+    width: 400px;
   }
   .dodger-blue-text {
     color: #2998E4;
