@@ -1,0 +1,59 @@
+.nav-pills {
+  font-family:lobster;
+  font-size:2.0em;
+  background-color:black;
+}
+.block {
+  background-color:black;
+  opacity:0.7;
+  padding:15px;
+  width:35%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+}
+
+.title-name {  
+  font-family:Raleway;
+}
+body {
+  font-family:Raleway;
+  background-color:black;
+  color:#F9F9F9;
+}
+h1 {
+  padding:0;
+  margin-top:0px;
+  font-size:6.0em;
+  color:#F9F9F9;
+}
+h2 {
+  color:#F9F9F9;
+}
+
+a{
+  color:#d9534f;
+}
+
+.btn-default {
+  background-color:black;
+  border-color:black;
+  color:#d9534f;
+  margin-top:5px;
+ 
+}
+
+.pageOne {
+  background:url("http://bit.ly/2um9wlz");
+  background-size:cover;
+  height:1000px;
+  color:#d9534f;
+}
+
+
+/* background_images
+http://bit.ly/2mUrDdA  office_image
+http://bit.ly/2tIJrPP  desk_&_laptop
+http://bit.ly/2um9wlz coffee_&_laptop
+*/
+
