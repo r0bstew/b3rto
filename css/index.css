@@ -1,56 +1,84 @@
-a {
-  font-family:Raleway;
-}
+
 body {
-  background-color:#D3D3D3 !important;
+  font-family:Lobster !important;
+  background-color:black !important;
 }
+
+.a {
+  color:#d9534f !important;
+}
+
 img {
     display: block;
     margin: 0 auto;
 }
+
 cite {
   color:#D3D3D3;
 }
+
 footer { 
     display: block;
 }
+
 p {
  color:#D3D3D3; 
 }
-.navbar {
-    background-color: #222222 !important;
-    margin:0 !important;
+
+h2 {
+  font-family:Raleway !important;
+  color:#F9F9F9 !important;
 }
+
+.force {
+  color:#d9534f !important;
+  font-family: Nunito !important;
+  font-size:2.0em !important;
+}
+
+.h1 {
+  margin-top:20px;
+  font-family:Raleway !important;
+  font-size:6.0em !important;
+  color:#F9F9F9 !important;
+}
+
+.navbar {
+    background-color: black !important; /* before #222222 */
+    padding-bottom: 60px;
+}
+
+.block {
+  background-color:black;
+  opacity:0.7;
+  padding:15px;
+  width:45%;
+  margin-top: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+}
+
 .jumbotron {
   margin:0 !important;
 }
+
 .rale-font {
   font-family:Raleway;
 }
-.nunito-font {
-  font-family:'Nunito', sans-serif;
-}
-.source-sans-font {
-  font-family:'Source Sans Pro', sans-serif;
-}
-.lobster-font {
-  font-family:Lobster;
-  color:#d9534f !important;
-  font-size:35px !important;
-  padding-left:80px !important;
-}
-.lobster-font2 {
-  font-family:Lobster;
-}
+
 .danger-color {
   color:#d9534f !important;
 }
+
 .margin-right {
   margin-right:80px;
 }
+
 .black-background {
   background-color:black !important;
 }
+
 .fixed-nav-bar {
   position: fixed !important;
   top: 0;
@@ -60,7 +88,19 @@ p {
   height: 50px;
   background-color: #222222;
 }
+
 .icon-right {
 float: right;
 color:black;
+}
+
+.pageOne {
+  background:url("http://bit.ly/2um9wlz");
+  background-size:cover;
+  height:1000px;
+  color:#d9534f !important;
+}
+
+.btn-links {
+  margin-top:5px;
 }
