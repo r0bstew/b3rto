@@ -39,10 +39,10 @@ h2 {
   color:#F9F9F9 !important;
 }
 
-.force {
+.nav-force {
   color:#d9534f !important;
   font-family: Nunito !important;
-  font-size:2.0em !important;
+  font-size:1.5em !important;
 }
 
 .h1 {
@@ -54,7 +54,7 @@ h2 {
 
 .navbar {
     background-color: black !important; /* before #222222 */
-    padding-bottom: 60px;
+    padding-bottom: 45px;
 }
 
 .block {
@@ -106,7 +106,8 @@ color:black;
 .pageOne {
   background:url("http://bit.ly/2um9wlz");
   background-size:cover;
-  height:1000px;
+  height:800px;
+  width:auto;
   color:#d9534f !important;
 }
 
