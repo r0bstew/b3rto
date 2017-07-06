@@ -36,9 +36,10 @@
 <body>
 
 
-
+<div class="pageOne text-center">
 <div class="container-fluid">
-  <nav class="navbar navbar-inverse navbar-static-top fixed-nav-bar">
+ <!-- <nav class="navbar navbar-inverse navbar-static-top fixed-nav-bar"> -->
+<a name="home"></a>
 
     <ul class="nav nav-pills">
         <li class = "title-name a">
@@ -57,18 +58,14 @@
             <a href="#home" class="smoothScroll nav-force">home</a>  
         </li>  
     </ul>
-  </nav>
-</div>
-
 
 
 
 
 
 <!--home section-->
-<a name="home"></a>
 <div class="container-fluid">
-  <div class="pageOne text-center">
+  
     <div class="block">
         <h1 class="h1">Rob Stewart</h1>
         <h2><i class="glyphicon glyphicon-console text-danger"></i> Front-End Developer</h2>
@@ -87,7 +84,7 @@
   </div>
 </div>
 
-
+</div>
 
 
 
@@ -197,7 +194,7 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 650);
         return false;
       }
     }

@@ -114,3 +114,9 @@ color:black;
 .btn-links {
   margin-top:5px;
 }
+
+.nav-pills {
+  background-color: black;
+  margin-bottom: 5% !important;
+
+}
