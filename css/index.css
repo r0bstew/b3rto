@@ -67,13 +67,11 @@ ul {
 
 .block {
   background-color:black;
-  opacity:0.7;
+  opacity:0.8;
   padding:15px;
-  width:45%;
-  margin-top: 40px;
-  margin-left:auto;
-  margin-right:auto;
+  width:50%;
   border-radius:5px;
+  margin: 250px auto 10px auto;
 }
 
 .jumbotron {
@@ -84,12 +82,12 @@ ul {
   font-family:Raleway;
 }
 
-.danger-color {
-  color:#d9534f !important;
+.btn-links {
+  margin-top:5px;
 }
 
-.black-background {
-  background-color:black !important;
+.danger-color {
+  color:#d9534f !important;
 }
 
 .icon-right {
@@ -106,6 +104,14 @@ ul {
   margin-bottom: 10px;
   margin-top:10px;
   clear: both;
+}
+
+.nav-pills {
+  background-color: black;
+  width:100%;
+  letter-spacing: 1.5px;
+  position: fixed;
+  top:0;
 }
 
 .pageOne {
@@ -126,17 +132,6 @@ ul {
 
 .rs-img {
   border-radius: 50%;
-}
-
-.btn-links {
-  margin-top:5px;
-}
-
-.nav-pills {
-  background-color: black;
-  margin-bottom: 0%;
-  width:100%;
-  letter-spacing: 1.5px;
 }
 
 #twitterIcon {
