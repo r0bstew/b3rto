@@ -69,11 +69,6 @@ ul {
   color:#F9F9F9 !important;
 }
 
-.navbar {
-  background-color: black !important; /* before #222222 */
-  padding-bottom: 45px;
-}
-
 .block {
   background-color:black;
   opacity:0.7;
@@ -143,7 +138,9 @@ ul {
 
 .nav-pills {
   background-color: black;
-  margin-bottom: 5% !important;
+  margin-bottom: 0%;
+  width:100%;
+  letter-spacing: 1.5px;
 }
 
 #twitterIcon {
