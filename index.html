@@ -20,7 +20,7 @@
 
 <!--bootstrap-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 <!--favicon-->
 <link rel="shortcut icon" href="imgs/favicon/favicon.ico" type="image/x-icon">
@@ -43,19 +43,19 @@
 
     <ul class="nav nav-pills">
         <li class = "title-name a">
-            <a href="mailto:bertostew@gmail.com" class="smoothScroll nav-force">Rob Stewart</a>  
+            <a href="mailto:bertostew@gmail.com" class="nav-force">Rob Stewart</a>  
         </li>
     
         <li class="pull-right">
-            <a href="#contact" class="smoothScroll nav-force">contact</a>  
+            <a href="#contact" class="nav-force">contact</a>  
         </li>
     
         <li class="pull-right">
-            <a href="#portfolio" class="smoothScroll nav-force">portfolio</a>  
+            <a href="#portfolio" class="nav-force">portfolio</a>  
         </li>
    
         <li class="pull-right">
-            <a href="#home" class="smoothScroll nav-force">home</a>  
+            <a href="#home" class="nav-force">home</a>  
         </li>  
     </ul>
 
@@ -70,10 +70,10 @@
     </div>
     
         <div class="btnList">
-              <a class="btn btn-default btn-links" href="http://bit.ly/2sIP78g">LinkedIn</a>
-              <a class="btn btn-default btn-links" href="https://github.com/robstew">GitHub</a>
-              <a class="btn btn-default btn-links" href="https://twitter.com/r0bstew">Twitter</a>
-              <a class="btn btn-default btn-links" href="https://www.freecodecamp.com/r0bstew">FreeCodeCamp</a>
+              <a class="btn btn-default btn-links" href="http://bit.ly/2sIP78g"><i class="fa fa-linkedin-square fa-lg" id="linkedIcon"></i> LinkedIn</a>
+              <a class="btn btn-default btn-links" href="https://github.com/robstew"><i class="fa fa-github fa-lg" id="githubIcon"></i> GitHub</a>
+              <a class="btn btn-default btn-links" href="https://twitter.com/r0bstew"><i class="fa fa-twitter fa-lg" id="twitterIcon"></i> Twitter</a>
+              <a class="btn btn-default btn-links" href="https://www.freecodecamp.com/r0bstew"><i class="fa fa-free-code-camp" id="freecodeIcon"></i> FreeCodeCamp</a>
         </div>
 
     <br>
@@ -123,23 +123,23 @@
     <div class="container-fluid">
         <h1 class="text-center rale-font danger-color">contact</h1>
         <br>
-    <center> 
-           <form style="width:400px" method="POST" name="contactform" action="contact-form.php">
-                <div class="form-group">
-                    <label for="name" class="rale-font" style="padding-right: 500px">name:</label>
-                    <input type="name" class="form-control rale-font" id="name" placeholder="enter name" name="name">
-               </div>
-                <div class="form-group">
-                    <label for="email" class="rale-font" style="padding-right: 500px">email:</label>
-                    <input type="email" class="form-control rale-font" id="email" placeholder="enter email" name="email">
-               </div>
-                <div class="form-group">
-                     <label for="comment" class="rale-font" style="padding-right: 500px">comment:</label>
-                          <textarea class="form-control rale-font" rows="5" id="comment"></textarea>
-               </div>
-      <button type="submit" class="btn btn-default rale-font"><a href="https://media.giphy.com/media/jir4LEGA68A9y/giphy.gif">submit</a></button>
-           </form>
-    </center>
+          <center> 
+                <form style="width:400px" method="POST" name="contactform" action="contact-form.php">
+                    <div class="form-group">
+                        <label for="name" class="rale-font" style="padding-right: 500px">name:</label>
+                        <input type="name" class="form-control rale-font" id="name" placeholder="enter name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="rale-font" style="padding-right: 500px">email:</label>
+                        <input type="email" class="form-control rale-font" id="email" placeholder="enter email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment" class="rale-font" style="padding-right: 500px">comment:</label>
+                        <textarea class="form-control rale-font" rows="5" id="comment"></textarea>
+                    </div>
+                        <button type="submit" class="btn btn-default rale-font"><a href="https://media.giphy.com/media/jir4LEGA68A9y/giphy.gif">submit</a></button>
+                </form>
+          </center>
     </div>
 </div>
   
@@ -150,23 +150,30 @@
 
 <!--footer with icons -->
 <footer>
-    <div class="container-fluid">
+    <div class="container-fluid text-center">           
+                  
+                  <a class="button social" href="https://www.linkedin.com/in/rob-stewart-97b69655/">
+                       <i class="fa fa-linkedin-square fa-2x"></i>
+                         </a>&nbsp;
 
-            <p class="rale-font">written and coded by <a href="mailto:bertostew@gmail.com" class="dodger-blue-text rale-font">Rob Stewart</a>.</p>
-            
-            <a class="button social" href="https://github.com/robstew">
-                  <i class="fa fa-github"></i>
-                    </a>
+                  <a class="button social" href="https://github.com/robstew">
+                        <i class="fa fa-github fa-2x"></i>
+                         </a>&nbsp;
 
-            <a class="button social" href="https://www.linkedin.com/in/rob-stewart-97b69655/">
-                  <i class="fa fa-linkedin-square"></i>
-                    </a>
+                  <a class="button social" href="https://twitter.com/r0bstew">
+                       <i class="fa fa-twitter fa-2x"></i>
+                         </a>&nbsp;
 
-            <a class="button social" href="https://www.instagram.com/r0bstew/">
-                  <i class="fa fa-instagram"></i>
-                    </a>
+                  <a class="button social" href="https://www.freecodecamp.com/r0bstew">
+                       <i class="fa fa-free-code-camp fa-2x"></i>
+                         </a>&nbsp;
 
+                  <a class="button social" href="https://www.instagram.com/r0bstew/">
+                       <i class="fa fa-instagram fa-2x"></i>
+                         </a>&nbsp;
 
+                                                                                                                          <!--&nbsp; creates a blank space-->
+            <p class="rale-font">written and coded by <a href="mailto:bertostew@gmail.com" class="dodger-blue-text rale-font">Rob Stewart</a>&nbsp;&nbsp;
 <!--test pages -->
             <a class="button social icon-right" href="https://robstew.github.io/jquery_playground.html">
                   <i class="fa fa-asterisk"></i>
@@ -174,11 +181,11 @@
             <a class="button social icon-right" href="https://robstew.github.io/test.html">
                   <i class="fa fa-asterisk"></i>
                     </a>
+
+
+            </p>
     </div>
 </footer>
-
-
-
 
 
 

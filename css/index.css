@@ -3,18 +3,11 @@ font-family: 'Abril Fatface', cursive;
 font-family: 'Bad Script', cursive;
 font-family: 'Press Start 2P', cursive;  -- video game font
 font-family: 'Berkshire Swash', cursive;
-
-
 */
-
 
 body {
   font-family:Lobster !important;
   background-color:black !important;
-}
-
-.a {
-  color:#d9534f !important;
 }
 
 img {
@@ -37,6 +30,15 @@ p {
 h2 {
   font-family:Raleway !important;
   color:#F9F9F9 !important;
+}
+
+footer {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.a {
+  color:#d9534f !important;
 }
 
 .nav-force {
@@ -118,5 +120,20 @@ color:black;
 .nav-pills {
   background-color: black;
   margin-bottom: 5% !important;
+}
 
+#twitterIcon {
+  color:#00aced;
+}
+
+#linkedIcon {
+  color:#0077b5;
+}
+
+#githubIcon {
+
+}
+
+#freecodeIcon {
+  color:#006400;
 }
