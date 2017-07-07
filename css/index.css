@@ -9,27 +9,8 @@ body {
   background-color:black !important;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
-
 cite {
   color:#D3D3D3;
-}
-
-footer { 
-  display: block;
-}
-
-p {
-  color:#D3D3D3; 
-  font-family:Raleway;
-}
-
-h2 {
-  font-family:Raleway !important;
-  color:#F9F9F9 !important;
 }
 
 footer {
@@ -37,9 +18,24 @@ footer {
   margin-bottom: 1%;
 }
 
+h2 {
+  font-family:Raleway !important;
+  color:#F9F9F9 !important;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
 li {
   font-family: Nunito;
   font-size: 1.3em;
+}
+
+p {
+  color:#D3D3D3; 
+  font-family:Raleway;
 }
 
 ul {
