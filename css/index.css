@@ -6,13 +6,12 @@ font-family: 'Berkshire Swash', cursive;
 */
 
 body {
-  font-family:Lobster !important;
   background-color:black !important;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 cite {
@@ -20,11 +19,12 @@ cite {
 }
 
 footer { 
-    display: block;
+  display: block;
 }
 
 p {
- color:#D3D3D3; 
+  color:#D3D3D3; 
+  font-family:Raleway;
 }
 
 h2 {
@@ -37,14 +37,29 @@ footer {
   margin-bottom: 1%;
 }
 
+li {
+  font-family: Nunito;
+  font-size: 1.3em;
+}
+
+ul {
+  list-style:square;
+}
+
 .a {
   color:#d9534f !important;
+}
+
+.about-me-text {
+  color:black;
+  font-family: Nunito;
+  font-size: 1.3em !important;
 }
 
 .nav-force {
   color:#d9534f !important;
   font-family: Nunito !important;
-  font-size:1.5em !important;
+  font-size:1.2em !important;
 }
 
 .h1 {
@@ -55,8 +70,8 @@ footer {
 }
 
 .navbar {
-    background-color: black !important; /* before #222222 */
-    padding-bottom: 45px;
+  background-color: black !important; /* before #222222 */
+  padding-bottom: 45px;
 }
 
 .block {
@@ -82,27 +97,24 @@ footer {
   color:#d9534f !important;
 }
 
-.margin-right {
-  margin-right:80px;
-}
-
 .black-background {
   background-color:black !important;
 }
 
-.fixed-nav-bar {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  background-color: #222222;
+.icon-right {
+  float: right;
+  color:black;
 }
 
-.icon-right {
-float: right;
-color:black;
+.line {
+  background-color: #242424;
+  width: 60px;
+  height: 4px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+  margin-top:10px;
+  clear: both;
 }
 
 .pageOne {
@@ -111,6 +123,18 @@ color:black;
   height:1000px;
   width:auto;
   color:#d9534f !important;
+}
+
+.pageTwo {
+  background-color: black !important;
+}
+
+.pageThree {
+ 
+}
+
+.rs-img {
+  border-radius: 50%;
 }
 
 .btn-links {
