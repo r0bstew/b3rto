@@ -9,18 +9,16 @@ body {
   background-color:black !important;
 }
 
-cite {
-  color:#D3D3D3;
-}
-
 footer {
+  color: #D3D3D3;
   margin-top: 1%;
   margin-bottom: 1%;
+  font-family:Raleway;
 }
 
 h2 {
   font-family:Raleway !important;
-  color:#F9F9F9 !important;
+  color:#d9534f !important;
 }
 
 img {
@@ -28,22 +26,8 @@ img {
   margin: 0 auto;
 }
 
-li {
-  font-family: Nunito;
-  font-size: 1.3em;
-}
-
-p {
-  color:#D3D3D3; 
-  font-family:Raleway;
-}
-
 ul {
   list-style:square;
-}
-
-.a {
-  color:#d9534f !important;
 }
 
 .about-me-text {
@@ -52,10 +36,15 @@ ul {
   font-size: 1.3em !important;
 }
 
-.nav-force {
+.about-me-list {
+  font-family: Nunito;
+  font-size: 1.3em;
+}
+
+.nav-list {
   color:#d9534f !important;
   font-family: Nunito !important;
-  font-size:1.2em !important;
+  font-size:1.3em !important;
 }
 
 .h1 {
@@ -72,22 +61,10 @@ ul {
   width:50%;
   border-radius:5px;
   margin: 200px auto 10px auto;
-}
-
-.jumbotron {
-  margin:0 !important;
-}
-
-.rale-font {
-  font-family:Raleway;
-}
+} 
 
 .btn-links {
   margin-top:5px;
-}
-
-.danger-color {
-  color:#d9534f !important;
 }
 
 .icon-right {
@@ -112,6 +89,11 @@ ul {
   letter-spacing: 1.5px;
   position: fixed;
   top:0;
+}
+
+.port-text {
+  color:#D3D3D3; 
+  font-family:Raleway;
 }
 
 .pageOne {
