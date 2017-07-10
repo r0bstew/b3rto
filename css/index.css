@@ -41,19 +41,6 @@ ul {
   font-size: 1.3em;
 }
 
-.nav-list {
-  color:#d9534f !important;
-  font-family: Nunito !important;
-  font-size:1.3em !important;
-}
-
-.h1 {
-  margin-top:20px;
-  font-family:Raleway !important;
-  font-size:6.0em !important;
-  color:#F9F9F9 !important;
-}
-
 .block {
   background-color:black;
   opacity:0.8;
@@ -65,6 +52,13 @@ ul {
 
 .btn-links {
   margin-top:5px;
+}
+
+.h1 {
+  margin-top:20px;
+  font-family:Raleway !important;
+  font-size:6.0em !important;
+  color:#F9F9F9 !important;
 }
 
 .icon-right {
@@ -89,6 +83,12 @@ ul {
   letter-spacing: 1.5px;
   position: fixed;
   top:0;
+}
+
+.nav-list {
+  color:#d9534f !important;
+  font-family: Nunito !important;
+  font-size:1.3em !important;
 }
 
 .port-text {
