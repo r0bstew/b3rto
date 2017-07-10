@@ -15,14 +15,13 @@ img {
     display: block !important;
     margin: 0 auto !important;
 }
-  .red-border {
-    border-color: #d9534f;
-    border-width: 10px;
-    border-style: solid;
-  }
 li {
   font-family:Raleway;
   padding-top:20px;
+}
+footer {
+  font-family: Raleway;
+  font-size: 10px;
 }
 .align {
     display: block;
@@ -36,4 +35,9 @@ li {
 }
 .lobster-font2 {
   font-family:Lobster;
+}
+.red-border {
+    border-color: #d9534f;
+    border-width: 10px;
+    border-style: solid;
 }
