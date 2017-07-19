@@ -5,6 +5,10 @@ font-family: 'Press Start 2P', cursive;  -- video game font
 font-family: 'Berkshire Swash', cursive;
 */
 
+a {
+  text-decoration: none !important;
+}
+
 body {
   background-color:black !important;
 }
