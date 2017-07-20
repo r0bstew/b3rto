@@ -135,3 +135,79 @@ ul {
 #freecodeIcon {
   color:#006400;
 }
+
+
+
+
+
+
+
+
+
+
+/********************************
+           Responsive
+********************************/
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1199px) {}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (max-width: 991px) {}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (max-width: 767px) {
+    #nav-top {
+        padding: 0 10px;
+        justify-content: center;
+    }
+    .nav-link {
+        padding: .5em 0.3em;
+    }
+    #home {
+        height: 340px;
+        background-color: #242424;
+    }
+    .nameWrapper {
+        font-size: 24px;
+        letter-spacing: 5px;
+        border: 4px solid #ffffff;
+        margin: 140px 0 20px 0;
+    }
+    
+    .tagline {
+        font-size: 11px;
+        margin-right: 15px;
+        letter-spacing: 2px;
+    }
+    section#work {
+        margin-top: 20px;
+    }
+    ul.about-me-list {
+        margin-top: 20px;
+    }
+    footer {
+        height: 100px;
+        line-height: 26px;
+        padding-top: 26px;
+    }
+    #contact .row {
+        justify-content: center;
+    }
+    #contact .row div {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .nameWrapper {
+        font-size: 20px;
+    }
+}
