@@ -9,8 +9,8 @@ a {
   text-decoration: none !important;
 }
 
-body {
-  background-color:black !important;
+html body {
+  background-color:black;
 }
 
 footer {

@@ -1,4 +1,4 @@
-body {
+html body {
   background-color:black;
   font-family: Verdana;
   padding: 20px;
@@ -6,6 +6,7 @@ body {
 }
 
 h1 {
+  text-align:center;
 
 }
 

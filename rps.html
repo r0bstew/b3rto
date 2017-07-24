@@ -4,11 +4,29 @@
 
 <title>Rock-Paper-Scissors</title>
 
+<!--javascript -->
+<link rel="stylesheet" type="text/css" href="css/rps.css">
+
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+
+<!--bootstrap-->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> -->
+
 </head>
 
 <body>
 
-<h1>
+<h1 class = "text-center">
  ROCK - PAPER - SCISSORS
 </h1>
 
@@ -33,13 +51,13 @@
 <div class="panel-bottom">
 
   <div class="player-msg">
-    Computer said:
+    Computer picks:
     <span id="computer-said">...</span>
   </div>
 
 
   <div class="player-msg">
-    Player said:
+    Player picks:
     <span id="player-said">...</span>
   </div>
   
@@ -51,13 +69,13 @@
   PAPER
   </button>
   
-  <button id="action-scissors">
+  <button id="action-scissors"><img src="https://robstew.github.io/imgs/scissors.png">
   SCISSORS
   </button>
 
 
 </div>
-
+<script type="text/javascript" src="js/rps.js"></script>
 </body>
 
 </html>
