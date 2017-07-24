@@ -38,11 +38,15 @@ ul {
   color:black;
   font-family: Nunito;
   font-size: 1.3em !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 .about-me-list {
   font-family: Nunito;
   font-size: 1.3em;
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 .block {
