@@ -1,0 +1,81 @@
+body {
+  background-color:black;
+  font-family: Verdana;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+
+}
+
+button {
+  border:1px solid red;
+  padding: 5px;
+  width: 30%;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color:green;
+  color:white;
+  cursor:pointer;
+}
+
+.panel-top {
+  padding: 20px;
+  width: 70%;
+  background-color: green;
+}
+
+.score {
+ font-weight: bold;
+ padding: 5px;
+ margin-top: 10px;
+}
+
+.panel-bottom {
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  color:black;
+}
+
+.player-msg{
+    
+}
+
+#message {
+  color:black;
+  font-size: 20px;
+  padding:5px;
+  font-weight:bold;
+}
+
+#computer-score {
+  
+}
+
+#player-score {
+  
+}
+
+#computer-said {
+  
+}
+
+#player-said {
+  
+}
+
+#action-rock {
+
+}
+
+#action-paper {
+
+}
+
+#action-scissors {
+
+}
