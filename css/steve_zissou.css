@@ -1,19 +1,26 @@
-body {
-  background-color: white;
-  margin-top:60px
+a {
+  text-decoration: none !important;
 }
-h1 {
+html body {
+  background-color: white;
+  margin-top:30px;
+}
+html h1 {
   font-size:80px;
   color:#d9534f !important;
-  font-family:Lobster !important;
+  font-family:Lobster;
 }
-h3 {
-  color:#d9534f !important;
-  font-family:Lobster Two !important;
+html h3 {
+  color:#d9534f;
+  font-family:Lobster Two;
+  text-align: center;
 }
-img {
-    display: block !important;
-    margin: 0 auto !important;
+html h5 {
+  text-align:center;
+}
+html img {
+    display: block;
+    margin: 0 auto;
 }
 li {
   font-family:Raleway;
