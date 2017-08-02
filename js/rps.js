@@ -26,12 +26,12 @@ function play(playerSelection) {
   var message;
   
   if (matchResult === 0) {
-  	message = "IT'S A TIE!";
+  	message = "TIE!";
   }	else if (matchResult === 1) {
-  	message = "YOU WON!";
+  	message = "POINT GOES TO PLAYER!";
     playerScore += 1;
   } else if (matchResult === 2) {
-  	message = "COMPUTER WINS!";
+  	message = "POINT GOES TO COMPUTER!";
     computerScore += 1;
   }
   
@@ -80,10 +80,10 @@ function determineMatchResult(playerSelection, computerSelection) {
 function determineGameResult(playerScore, computerScore) {
 
 	if(playerScore === 5) {
-		document.getElementById("message").innerHTML = "GAME OVER - YOU WON!";
+		document.getElementById("message").innerHTML = "YOU WON!";
     resetGame();
     } else if (computerScore === 5) {
-    document.getElementById("message").innerHTML = "GAME OVER - COMPUTER WINS!";
+    document.getElementById("message").innerHTML = "COMPUTER WINS!";
     resetGame();
     }
 
