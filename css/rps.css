@@ -6,21 +6,24 @@ html body {
 }
 
 h1 {
-  text-align:center;
+  text-align: center;
+  font-family: Nunito;
+  color: #d9534f;
+  font-size: 3.0em;
 
 }
 
 button {
-  border:1px solid red;
+  border: 1px solid red;
   padding: 5px;
   margin-top: 20px;
 
 }
 
 button:hover {
-  background-color:green;
-  color:white;
-  cursor:pointer;
+  background-color: #d9534f;
+  color: white;
+  cursor: pointer;
 }
 
 div {
@@ -39,11 +42,13 @@ div {
 .panel-top {
   padding: 20px;
   width: 70%;
-  background-color: green;
+  background-color: #d9534f;
 }
 
 .score {
  font-weight: bold;
+ font-family:Lobster;
+ font-size: 2.0em;
  padding: 5px;
  margin-top: 10px;
 }
@@ -51,21 +56,17 @@ div {
 .panel-bottom {
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
-  color:black;
+  background-color: black;
 
-}
-
-.player-msg{
-    
 }
 
 #message {
-  color:black;
+  color: black;
   font-size: 25px;
-  padding:5px;
-  font-weight:bold;
+  padding: 5px;
+  font-weight: bold;
   text-align: center;
+  font-family: Abril Fatface;
 }
 
 #computer-score {
@@ -77,15 +78,27 @@ div {
 }
 
 #computer-said {
-  
+ color:#f1f1f1; 
+ font-family: Raleway;
+ font-size: 1.5em;
 }
 
 #player-said {
-  
+  color:#5bc0de;
+  font-family: Raleway;
+  font-size: 1.5em; 
+}
+
+.player-msg {
+  color: #428bca !important;
+  color:#f1f1f1;
+  font-family: Raleway;
+  font-size: 1.5em; 
+    
 }
 
 #action-rock {
-
+  margin-left: 180px;
 }
 
 #action-paper {
