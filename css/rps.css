@@ -1,27 +1,25 @@
 html body {
   background-color:black;
-  font-family: Verdana;
-  padding: 20px;
-  color: white;
 }
 
 h1 {
   text-align: center;
   font-family: Nunito;
   color: #d9534f;
-  font-size: 3.0em;
+  padding-bottom: 20px;
+  font-size: 2.5em;
 
 }
 
 button {
-  border: 1px solid red;
+  border: 1px #428bca;
   padding: 5px;
   margin-top: 20px;
 
 }
 
 button:hover {
-  background-color: #d9534f;
+  background-color: #428bca;
   color: white;
   cursor: pointer;
 }
@@ -40,57 +38,57 @@ div {
 }
 
 .panel-top {
-  padding: 20px;
   width: 70%;
-  background-color: #d9534f;
+  background-color: black;
 }
 
 .score {
+ color:#f1f1f1;
+ text-align:center; 
  font-weight: bold;
  font-family:Lobster;
- font-size: 2.0em;
+ font-size: 1.5em;
  padding: 5px;
  margin-top: 10px;
 }
 
 .panel-bottom {
-  padding: 20px;
   width: 70%;
   background-color: black;
 
 }
 
 #message {
-  color: black;
+  color: #5bc0de;
   font-size: 25px;
-  padding: 5px;
   font-weight: bold;
   text-align: center;
   font-family: Abril Fatface;
 }
 
 #computer-score {
-  
-}
-
-#player-score {
-  
+  color:#d9534f;
+  font-size: 1.5em;
 }
 
 #computer-said {
- color:#f1f1f1; 
+ color:#d9534f; 
  font-family: Raleway;
  font-size: 1.5em;
 }
 
+#player-score {
+  color:#428bca;
+  font-size: 1.5em;
+}
+
 #player-said {
-  color:#5bc0de;
+  color:#428bca;
   font-family: Raleway;
   font-size: 1.5em; 
 }
 
 .player-msg {
-  color: #428bca !important;
   color:#f1f1f1;
   font-family: Raleway;
   font-size: 1.5em; 
