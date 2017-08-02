@@ -28,10 +28,10 @@ function play(playerSelection) {
   if (matchResult === 0) {
   	message = "TIE!";
   }	else if (matchResult === 1) {
-  	message = "POINT GOES TO PLAYER!";
+  	message = "PLAYER - POINT";
     playerScore += 1;
   } else if (matchResult === 2) {
-  	message = "POINT GOES TO COMPUTER!";
+  	message = "COMPUTER - POINT";
     computerScore += 1;
   }
   
